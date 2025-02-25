@@ -1,0 +1,15 @@
+[tool.poetry] 
+name = "practical01" 
+version = "0.1.0" 
+description = "" 
+authors = ["Evan Hughes <uqehugh3@uq.edu.au>"] 
+readme = "README.md" 
+
+[tool.poetry.dependencies] 
+python = ">=3.9" 
+flask = "^3.1.0"
+
+
+[build-system] 
+requires = ["poetry-core"] 
+build-backend = "poetry.core.masonry.api"
